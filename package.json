@@ -11,7 +11,7 @@
     "eslint": "eslint src",
     "eslint:fix": "eslint src --fix",
     "dev": "rimraf bin && ttsc --watch",
-    "start": "node bin/index.js",
+    "start": "node bin/executable/server.js",
     "prettier": "prettier src --write",
     "test": "node bin/test"
   },
