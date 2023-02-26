@@ -1,3 +1,3 @@
 export namespace Configuration {
-    export const API_PORT = async () => 37001;
+    export const API_PORT = async () => process.env.PORT ?? 37001;
 }
